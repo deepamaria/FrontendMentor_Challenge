@@ -38,6 +38,10 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .blueDiv {
     height: 50%;
@@ -125,16 +129,15 @@ body {
     color: var(--Cobalt_blue);
 }
 
-button{
-    height: 50%;
-    width: 90%;   
+.blue_btn {
+    color: var(--Pale_blue);
+    background-color: var(--Dark_gray_blue);
+    border-radius: 20px;
 }
 
-.blue_btn {
- 
-color: var(--Pale_blue);
-background-color: var(--Dark_gray_blue);
-}
+
+
+
 /* # Front-end Style Guide
 
 ## Layout
