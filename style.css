@@ -130,6 +130,21 @@ body {
     color: var(--Cobalt_blue);
 }
 
+.btn1 {
+    background-color: hsl(0, 51%, 85%);
+}
+
+.btn2 {
+    background-color: hsl(39, 81%, 85%);
+}
+
+.btn3 {
+    background-color: hsl(166, 62%, 83%);
+}
+
+.btn4 {
+    background-color: hsl(234, 62%, 85%);
+}
 .blue_btn {
     color: var(--Pale_blue);
     background-color: var(--Dark_gray_blue);
