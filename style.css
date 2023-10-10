@@ -44,7 +44,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-padding: 40px;
+    padding: 40px;
     border-radius: 20px;
 
 }
@@ -67,12 +67,26 @@ padding: 40px;
     width: 100%;
     background-color: var(--White);
 
-
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .whiteDiv h3 {
     color: var(--Light_slate_blue_background);
 }
+
+.btn {
+    height: 10%;
+    width: 90%;
+    background-color: var(--Pale_blue);
+
+    border-radius: 10px;
+    
+}
+
 /* # Front-end Style Guide
 
 ## Layout
